@@ -12,7 +12,7 @@ import edu.stanford.nlp.ling.CoreLabel;
 
 
 public class NerUtil {
-	
+	//comentario
 	private static AbstractSequenceClassifier<CoreLabel> classifier=null;
 	public NerUtil(){
 		super();
