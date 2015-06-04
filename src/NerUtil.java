@@ -17,7 +17,7 @@ public class NerUtil {
 	public NerUtil(){
 		super();
 		try {
-			if (classifier==null)
+			if  (classifier==null)
 			classifier = CRFClassifier.getClassifier("spanish.ancora.distsim.s512.crf.ser.gz");
 		} catch (ClassCastException e) {
 			// TODO Auto-generated catch block
